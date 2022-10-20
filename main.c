@@ -9,6 +9,10 @@ int main(){
 do{ 
   printf("Escolha \n0. Pedra\n1. Papel\n2. Tesoura\n3. Lagarto\n4. Spock\n");
   scanf("%d", &escolha);
+    while (escolha < 0 || escolha > 4){
+      printf("Escolha inválida, tente novamente \n0. Pedra\n1. Papel\n2. Tesoura\n3. Lagarto\n4. Spock\n");
+      scanf("%d", &escolha);
+    }
   
   srand(time(NULL));
   a = rand() % 5;
