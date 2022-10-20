@@ -8,7 +8,10 @@ int main(){
   do{ 
   printf("Escolha \n0. Pedra\n1. Papel\n2. Tesoura\n");
   scanf("%d", &escolha);
-  
+  while (escolha < 0 || escolha > 3);
+      printf("Escolha inválida, tente novamente \n0. Pedra\n1. Papel\n2. Tesoura\n");
+      scanf("%d", &escolha);
+    
   srand(time(NULL));
   a = rand() % 3;
   
