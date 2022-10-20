@@ -57,11 +57,11 @@ if (a == 1) // papel
       else if (escolha == 1)
         printf ("Computador escolheu lagarto, você perdeu");
           else if (escolha == 2)
-              printf("Computador escolheu lagarto, você perdeu");
+              printf("Computador escolheu lagarto, você venceu");
                 else if (escolha == 3)
                   printf("Computador escolheu lagarto, empate");
                   else if (escolha == 4)
-                    printf("Computador escolheu lagarto, você venceu");
+                    printf("Computador escolheu lagarto, você perdeu");
 
   if (a == 4) // spock
     if (escolha == 0)
@@ -71,7 +71,7 @@ if (a == 1) // papel
           else if (escolha == 2)
               printf("Computador escolheu Spock, você perdeu");
                 else if (escolha == 3)
-                  printf("Computador escolheu Spock, você perdeu");
+                  printf("Computador escolheu Spock, você venceu");
                   else if (escolha == 4)
                     printf("Computador escolheu Spock, empate");
 
