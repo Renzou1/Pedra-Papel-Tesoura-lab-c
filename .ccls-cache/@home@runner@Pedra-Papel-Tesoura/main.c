@@ -4,13 +4,10 @@
 int main(){
 
   int escolha, a;
-  
+  char novamente;
+  do{ 
   printf("Escolha \n0. Pedra\n1. Papel\n2. Tesoura\n");
   scanf("%d", &escolha);
-  while (escolha < 0 || escolha > 2){
-      printf("Escolha inválida, tente novamente \n0. Pedra\n1. Papel\n2. Tesoura\n");
-      scanf("%d", &escolha);
-  }
   
   srand(time(NULL));
   a = rand() % 3;
@@ -41,7 +38,10 @@ if (a == 1)
               printf("Computador escolheu tesoura, empate");
 
   
+printf ("\nJogar novamente? (S/N)\n");
+scanf (" %c", &novamente);
 
+   }while (novamente == 'S');
 
 
 
