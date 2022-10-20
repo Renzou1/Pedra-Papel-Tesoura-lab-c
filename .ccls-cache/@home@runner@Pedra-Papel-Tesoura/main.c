@@ -4,7 +4,9 @@
 int main(){
 
   int escolha, a;
+  char novamente;
   
+do{ 
   printf("Escolha \n0. Pedra\n1. Papel\n2. Tesoura\n3. Lagarto\n4. Spock\n");
   scanf("%d", &escolha);
   
@@ -72,6 +74,11 @@ if (a == 1) // papel
                   printf("Computador escolheu Spock, você perdeu");
                   else if (escolha == 4)
                     printf("Computador escolheu Spock, empate");
+
+printf ("\nJogar novamente? (S/N)\n");
+scanf (" %c", &novamente);
+
+   }while (novamente == 'S');
 
 
 
