@@ -1,6 +1,7 @@
 # Pedra-Papel-Tesoura-lab-c
 Esta branch é o jogo Pedra papel tesoura lagarto spock. É parecido com o pedra papel tesoura original, porém com mais opções para diminuir a probabilidade de empate.
-Primeiramente é perguntado ao usúario qual a escolha dele, Pedra (0) , papel (1), tesoura (2), lagarto (3) ou Spock (4). 
+Primeiramente é perguntado ao usúario qual a escolha dele, Pedra (0) , papel (1), tesoura (2), lagarto (3) ou Spock (4).
+Se o usuário digitar um número inválido, é pedido que ele digite novamente.
 Em seguida, o computador escolhe aleatoriamente o que vai jogar, e é mostrado o resultado do embate.
 O resulutado é definido à partir das seguintes regras:
 
