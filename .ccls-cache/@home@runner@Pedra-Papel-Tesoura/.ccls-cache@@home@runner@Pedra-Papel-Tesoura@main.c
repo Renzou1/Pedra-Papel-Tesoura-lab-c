@@ -33,9 +33,9 @@ if (a == 1) // papel
           else if (escolha == 2)
             printf ("Computador escolheu papel, você venceu");
               else if (escolha == 3)
-                printf("Computador escolheu pedra, ");
+                printf("Computador escolheu papel, você venceu");
                 else if (escolha == 4)
-                 printf("Computador escolheu pedra, ");
+                 printf("Computador escolheu papel, você perdeu");
   
   if (a == 2) // tesoura
     if (escolha == 0)
@@ -45,33 +45,33 @@ if (a == 1) // papel
           else if (escolha == 2)
               printf("Computador escolheu tesoura, empate");
                 else if (escolha == 3)
-                  printf("Computador escolheu tesoura, ");
+                  printf("Computador escolheu tesoura, você perdeu");
                   else if (escolha == 4)
-                    printf("Computador escolheu tesoura, ");
+                    printf("Computador escolheu tesoura, você venceu");
 
   if (a == 3) // lagarto
     if (escolha == 0)
-      printf ("Computador escolheu lagarto");
+      printf ("Computador escolheu lagarto, você venceu");
       else if (escolha == 1)
-        printf ("Computador escolheu lagarto");
+        printf ("Computador escolheu lagarto, você perdeu");
           else if (escolha == 2)
-              printf("Computador escolheu lagarto");
+              printf("Computador escolheu lagarto, você perdeu");
                 else if (escolha == 3)
-                  printf("Computador escolheu lagarto, ");
+                  printf("Computador escolheu lagarto, empate");
                   else if (escolha == 4)
-                    printf("Computador escolheu lagarto, ");
+                    printf("Computador escolheu lagarto, você venceu");
 
   if (a == 4) // spock
     if (escolha == 0)
-      printf ("Computador escolheu Spock,");
+      printf ("Computador escolheu Spock, você perdeu");
       else if (escolha == 1)
-        printf ("Computador escolheu Spock,");
+        printf ("Computador escolheu Spock, você venceu");
           else if (escolha == 2)
-              printf("Computador escolheu Spock,");
+              printf("Computador escolheu Spock, você perdeu");
                 else if (escolha == 3)
-                  printf("Computador escolheu Spock, ");
+                  printf("Computador escolheu Spock, você perdeu");
                   else if (escolha == 4)
-                    printf("Computador escolheu Spock, ");
+                    printf("Computador escolheu Spock, empate");
 
 
 
