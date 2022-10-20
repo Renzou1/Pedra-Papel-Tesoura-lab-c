@@ -14,5 +14,6 @@ O resulutado é definido à partir das seguintes regras:
 -Papel ganha de Spock
 -Spock ganha de pedra
 -Pedra ganha de tesoura
+-Qualquer um contra ele mesmo é empate
 
 Após o resultado, é perguntado ao usuário se ele deseja jogar novamente, e se ele digitar "S", é repetido todo o processo.
